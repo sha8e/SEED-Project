@@ -6,5 +6,13 @@ computer system security education
 
 To get more information about seed project, you can visit
 [here](http://www.cis.syr.edu/~wedu/seed)
+===============================
+
+####first practice
+simple-buffer-overflow, turn off ASLR and canary value detect.
+
+####second practice
+return-to-libc, turn off ASLR and canary value detect.
+
 
 
