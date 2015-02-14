@@ -28,6 +28,3 @@ The format-string vul- nerability is caused by code like `printf(user input)`, w
 1. crash the program.
 2. read from an arbitrary memory place.
 3. modify the values of in an arbitrary memory place.
-
-The exercises in this are designed to help students understand such a vulnerability.
-
