@@ -22,5 +22,12 @@ involves replacing the return address on the stack with the address of another
 function(one of the libc functions in this case) and modifying other approriate
 portions of the stack to proide arguments to the function.
 
+###Format-String Vulnerability Lab
+The format-string vul- nerability is caused by code like `printf(user input)`, where the contents of variable of `user_input` is provided by users. When this program is running with privileges (e.g., Set-UID program), this printf statement can lead to one of the following:
 
+1. crash the program.
+2. read from an arbitrary memory place.
+3. modify the values of in an arbitrary memory place.
+
+The exercises in this are designed to help students understand such a vulnerability.
 
